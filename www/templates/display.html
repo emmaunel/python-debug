@@ -1,0 +1,13 @@
+<h1>Awesome database</h1>
+{% for i in users %}
+	<table>
+        <tr>
+	        <td>{{ i.fullname }}</td>
+		</tr>
+	</table>
+{% endfor %}
+<!---TODO: Fixed the button and /search?name api-->
+<!----Keeps crashing :((((-->
+<p>Search names</p>
+<input type="text" name="fullname" placeholder="name">
+<input type="submit" name="submit_button" value="Login">
